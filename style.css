@@ -36,7 +36,7 @@
 body * {box-sizing: border-box;}
 html,body {
 	height: 100%;
-	font-size: 13px;	/*基準となるフォントサイズ。*/
+	font-size: 200px;	/*基準となるフォントサイズ。*/
 }
 
 	/*画面幅900px以上の追加指定*/
