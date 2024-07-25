@@ -622,3 +622,47 @@ h5{
    padding:20px;
    font-size:35px;
 }
+
+/* 基本スタイル */
+body {
+    font-size: 16px;
+}
+
+/* スマホ用スタイル */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+/* タブレット用スタイル */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 15px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    flex: 1 1 auto;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
