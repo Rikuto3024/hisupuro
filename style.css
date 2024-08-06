@@ -666,3 +666,45 @@ img {
     height: auto;
 }
 
+body {
+    font-size: 16px; /* 基本の文字サイズをピクセルで指定 */
+    line-height: 1.5; /* 行間を調整 */
+}
+
+h1 {
+    font-size: 2rem; /* 16pxの2倍 */
+}
+
+h2 {
+    font-size: 1.75rem; /* 16pxの1.75倍 */
+}
+
+p {
+    font-size: 1rem; /* 16pxと同じ */
+}
+
+/* スマホ向けの設定 */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* スマホでは文字サイズを少し小さく */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* ヘッダのサイズも調整 */
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center; /* アイコンを中央に配置 */
+        padding: 0; /* パディングを調整 */
+    }
+
+    nav ul {
+        flex-direction: column; /* メニューを縦方向に */
+        align-items: center;
+    }
+}
